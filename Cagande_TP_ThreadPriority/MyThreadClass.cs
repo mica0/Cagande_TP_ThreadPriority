@@ -20,7 +20,7 @@ namespace Cagande_TP_ThreadPriority
         }
 
         public static void Thread2() {
-            for (int loopCount = 0; loopCount < 5; loopCount++)
+            for (int loopCount = 0; loopCount < 6; loopCount++)
             {
                 Thread thread = Thread.CurrentThread;
                 Console.WriteLine("Name of Thread: " + thread.Name + " = " + loopCount);
